@@ -69,7 +69,7 @@ Also we have provided different types skeleton unit that you can choose, for mor
 
 ### Loading state
 
-When `Loading` ends, we always need to show the real UI with data to our end users. with the attribtue `loading` we can control whether showing the DOM. You can also use slot `default` to structure the real DOM element.
+When `Loading` ends, we always need to show the real UI with data to our end users. with the attribute `loading` we can control whether showing the DOM. You can also use slot `default` to structure the real DOM element.
 
 :::demo
 
@@ -103,7 +103,7 @@ When `Loading` ends, we always need to show the real UI with data to our end use
             class="image"
           />
           <div style="padding: 14px;">
-            <span>Delicious hamberger</span>
+            <span>Delicious hamburger</span>
             <div class="bottom card-header">
               <span class="time">{{ currentDate }}</span>
               <el-button type="text" class="button">Operation button</el-button>
@@ -171,7 +171,7 @@ We do not recommend rendering lots of fake UI to the browser, it will still caus
         >
           <img :src="item.imgUrl" class="image multi-content" />
           <div style="padding: 14px;">
-            <span>Delicious hamberger</span>
+            <span>Delicious hamburger</span>
             <div class="bottom card-header">
               <span class="time">{{ currentDate }}</span>
               <el-button type="text" class="button">Operation button</el-button>
@@ -265,7 +265,7 @@ Sometimes API responds very quickly, when that happens, the skeleton just gets r
             class="image"
           />
           <div style="padding: 14px;">
-            <span>Delicious hamberger</span>
+            <span>Delicious hamburger</span>
             <div class="bottom card-header">
               <span class="time">{{ currentDate }}</span>
               <el-button type="text" class="button">operation button</el-button>
@@ -298,7 +298,7 @@ Sometimes API responds very quickly, when that happens, the skeleton just gets r
 | count   | how many fake items to render to the DOM | number | integer | 1 |
 | loading | whether showing the skeleton | boolean | true / false | true  |
 | rows    | numbers of the row, only useful when no template slot were given | number  | integer  | 4      |
-| throttle | Rendering delay in millseconds | number | integer | 0 |
+| throttle | Rendering delay in milliseconds | number | integer | 0 |
 
 
 ### Skeleton Item Attributes
