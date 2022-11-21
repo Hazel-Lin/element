@@ -52,7 +52,7 @@ Shows the status of the step for each step.
 
 ### Center
 
-Title and desription can be centered.
+Title and description can be centered.
 
 :::demo
 ```html
