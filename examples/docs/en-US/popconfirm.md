@@ -6,7 +6,7 @@ A simple confirmation dialog of an element click action.
 
 Popconfirm is similar to Popover. So for some duplicated attributes, please refer to the documentation of Popover.
 
-:::demo Only `title` attribute is avaliable in Popconfirm, `content` will be ignored.
+:::demo Only `title` attribute is available in Popconfirm, `content` will be ignored.
 ```html
 <template>
 <el-popconfirm
